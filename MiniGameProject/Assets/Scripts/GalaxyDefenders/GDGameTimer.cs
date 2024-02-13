@@ -6,42 +6,47 @@ public class GDGameTimer : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject[] EnemiesThisLevel;
-    public List<GameObject> EnemiesAlive;
+    //public List<GameObject> EnemiesAlive;
+
+    public GDLevelManager LevelManager;
 
     public float DropTime = 20.0f;
 
-    private float _gameTimer = 0.0f;
+    public float _gameTimer = 0.0f;
+
+    public bool bTimerRunning = true;
 
     void Start()
     {
-        EnemiesThisLevel = GameObject.FindGameObjectsWithTag("Enemy");
 
-        for(int i = 0; i < EnemiesThisLevel.Length; i++) 
-        {
-            EnemiesAlive.Add(EnemiesThisLevel[i]);
-        }
-    }
 
-    public void RemoveEnemy(GameObject Enemy)
-    {
-        EnemiesAlive.Remove(Enemy);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_gameTimer >= DropTime)
+        if (GameObject.FindAnyObjectByType<GDLevelManager>().GameStarted == true)
         {
-            foreach(GameObject obj in EnemiesAlive) 
+            if (bTimerRunning)
             {
-                obj.GetComponent<GDBasicEnemy>().TriggerMoveDown();
-            }
+                if (_gameTimer >= DropTime)
+                {
+                    foreach (GameObject obj in LevelManager.CurrentEnemies)
+                    {
+                        obj.GetComponent<GDBasicEnemy>().TriggerMoveDown();
+                    }
 
-            _gameTimer = 0.0f;
+                    _gameTimer = 0.0f;
+
+                    bTimerRunning = false;
+                }
+                else
+                {
+                    _gameTimer += Time.deltaTime;
+                }
+            }
         }
-        else
-        {
-            _gameTimer += Time.deltaTime;
-        }
+
+
     }
 }

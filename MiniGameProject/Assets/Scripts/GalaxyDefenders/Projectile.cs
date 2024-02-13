@@ -35,10 +35,20 @@ public class Projectile : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log("Hit Enemy");
-            FindAnyObjectByType<GDGameTimer>().RemoveEnemy(other.gameObject);
-            FindAnyObjectByType<GDScore>().score += 10;
+
+            GDBasicEnemy EnemyHit = other.gameObject.GetComponent<GDBasicEnemy>();
+
+            EnemyHit.Health -= Damage;
+
+            if(EnemyHit.Health <= 0)
+            {
+                FindAnyObjectByType<GDScore>().score += 10;
+                Destroy(other.gameObject);
+            }
+            
             Destroy(gameObject);
-            Destroy(other.gameObject);
+
+
         }
     }
 }

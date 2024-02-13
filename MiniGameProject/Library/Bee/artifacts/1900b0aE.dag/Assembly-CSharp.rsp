@@ -345,8 +345,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Player.cs"
-"Assets/Scripts/Projectile.cs"
+"Assets/Animated Planet Bagyo/Demo/Script/LookCamera.cs"
+"Assets/Scripts/GalaxyDefenders/GDBasicEnemy.cs"
+"Assets/Scripts/GalaxyDefenders/GDGameTimer.cs"
+"Assets/Scripts/GalaxyDefenders/GDLevelManager.cs"
+"Assets/Scripts/GalaxyDefenders/GDScore.cs"
+"Assets/Scripts/GalaxyDefenders/Player.cs"
+"Assets/Scripts/GalaxyDefenders/Projectile.cs"
+"Assets/Scripts/GalaxyDefenders/SkyboxRotate.cs"
 -langversion:9.0
 
 /deterministic

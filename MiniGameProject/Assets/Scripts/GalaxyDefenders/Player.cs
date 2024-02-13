@@ -26,7 +26,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Controls();
+        if (GameObject.FindAnyObjectByType<GDLevelManager>().GameStarted == true)
+        {
+            Controls();
+        }
     }
 
     private void Controls() 

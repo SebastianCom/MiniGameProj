@@ -348,6 +348,7 @@
 "Assets/Animated Planet Bagyo/Demo/Script/LookCamera.cs"
 "Assets/Scripts/GalaxyDefenders/GDBasicEnemy.cs"
 "Assets/Scripts/GalaxyDefenders/GDGameTimer.cs"
+"Assets/Scripts/GalaxyDefenders/GDLevelManager.cs"
 "Assets/Scripts/GalaxyDefenders/GDScore.cs"
 "Assets/Scripts/GalaxyDefenders/Player.cs"
 "Assets/Scripts/GalaxyDefenders/Projectile.cs"
