@@ -63,6 +63,19 @@ public class Frogger_Lanes : MonoBehaviour
         }
     }
 
+    [ContextMenu("See Lanes")]
+    public void SeeLines()
+    {
+        foreach(GameObject lane in Lanes)
+        {
+            Vector3 laneTop = new Vector3(lane.transform.position.x, lane.transform.position.y, lane.transform.position.z + SectionHeight / 2);
+            Vector3 laneBottom = new Vector3(lane.transform.position.x, lane.transform.position.y, lane.transform.position.z - SectionHeight / 2);
+            Debug.DrawRay(laneTop, lane.transform.right * 400, Color.red, 10000000);
+            Debug.DrawRay(laneBottom, lane.transform.right * 400, Color.red, 10000000);
+            Debug.DrawRay(lane.transform.position, lane.transform.right * 400, Color.green, 10000000);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

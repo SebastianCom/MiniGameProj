@@ -4148,6 +4148,8 @@ MonoBehaviour:
   Lanes: {fileID: 1387234168}
   Cars:
   - {fileID: 664796936468799558, guid: fdb83f06d20e63a40bef65f56a5340f0, type: 3}
+  Rafts:
+  - {fileID: 4395746325151573783, guid: a369bd5348e1b9f4096dfe3cc2d41082, type: 3}
 --- !u!4 &391450900
 Transform:
   m_ObjectHideFlags: 0
@@ -7387,40 +7389,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708082223}
   m_CullTransparentMesh: 1
---- !u!1 &714275652 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4476619158541008810, guid: 3cd589651371be64cae1ce965ef598cf, type: 3}
-  m_PrefabInstance: {fileID: 4476619159171073262}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &714275657
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714275652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 55.614037, y: 84.91352, z: 26.480558}
-  m_Center: {x: 0.25346932, y: -3.0439508, z: -1.7241834}
---- !u!54 &714275658
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714275652}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
 --- !u!1 &720642841
 GameObject:
   m_ObjectHideFlags: 0
@@ -21275,6 +21243,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4476619158541008806, guid: 3cd589651371be64cae1ce965ef598cf, type: 3}
+      propertyPath: Lanes
+      value: 
+      objectReference: {fileID: 1387234168}
+    - target: {fileID: 4476619159990901344, guid: 3cd589651371be64cae1ce965ef598cf, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4476619159990901345, guid: 3cd589651371be64cae1ce965ef598cf, type: 3}
       propertyPath: m_Camera
       value: 
