@@ -28,6 +28,17 @@ public class GDBasicEnemy : MonoBehaviour
 
     public MoveDirection _moveDirection;
 
+    [Header("Ranged")]
+    public bool Ranged;
+    public GameObject ProjecilePrefab;
+    public float FireRate = 0.0f;
+    public float FireDeviance = 1.0f;
+    public float FireOffset = 1.0f;
+    float shotTimer = 0.0f;
+    float RandomizedShotTime = 0.0f;
+    bool pickedShotTime = false;
+
+
 
     void Start()
     {
@@ -46,8 +57,34 @@ public class GDBasicEnemy : MonoBehaviour
         {
             HandleMovement();
 
+            if (Ranged)
+                HandleShooting();
+
         }
 
+    }
+
+    public void HandleShooting()
+    {
+        if(pickedShotTime == false) 
+        {
+            RandomizedShotTime = Random.Range(FireRate - FireDeviance, FireRate+ FireDeviance);
+            pickedShotTime = true;
+        }
+        else
+        {
+            if(shotTimer >= RandomizedShotTime) 
+            {
+                Vector3 shotPostition = new Vector3(transform.position.x, transform.position.y - FireOffset, transform.position.z);
+                GameObject firedProjectile = Instantiate(ProjecilePrefab, shotPostition, Quaternion.identity); 
+                pickedShotTime = false;
+                shotTimer = 0.0f;
+            }
+            else
+            {
+                shotTimer += Time.deltaTime;
+            }
+        }
     }
 
     private void HandleMovement()

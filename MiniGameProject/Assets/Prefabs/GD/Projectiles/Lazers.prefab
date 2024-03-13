@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 2524770830236289443}
   m_Layer: 0
   m_Name: Lazers
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,6 +217,7 @@ MonoBehaviour:
   Speed: 7
   Acceleration: 0.05
   Damage: 1
+  FromEnemy: 0
 --- !u!65 &6421706660523458686
 BoxCollider:
   m_ObjectHideFlags: 0

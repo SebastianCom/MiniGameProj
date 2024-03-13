@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,8 @@ public class Player : MonoBehaviour
 
 
     private float _shotTimer = 0.0f;
+
+    public int Health = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -74,12 +77,26 @@ public class Player : MonoBehaviour
         {
             for (int i = 0; i < SpawnedBullet.transform.childCount; i++)
             {
-                SpawnedBullet.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+                SpawnedBullet.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f));
             }
         }
         else
         {
-            SpawnedBullet.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+            SpawnedBullet.GetComponent<MeshRenderer>().material.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f));
         }
     }
+
+    public void ApplyDamage(int damage)
+    {
+        Health -= damage;
+
+        if (Health <= 0)
+        {
+            //LOSE GAME (TODO)
+            Debug.Log("You fucking suck buddy");
+        }
+
+    }
+
+
 }

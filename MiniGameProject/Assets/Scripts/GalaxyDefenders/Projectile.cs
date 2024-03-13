@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     public float Speed = 1.0f; 
     public float Acceleration = 0.5f;
     public int Damage = 1;
+    public bool FromEnemy = false;
 
 
     // Start is called before the first frame update
@@ -21,7 +22,12 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(transform.up * (Speed += Acceleration) * Time.deltaTime); 
+        if (FromEnemy == false)
+            transform.Translate(transform.up * (Speed += Acceleration) * Time.deltaTime); 
+        else
+            transform.Translate(-transform.up * (Speed += Acceleration) * Time.deltaTime);
+
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,7 +38,7 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy" && FromEnemy == false)
         {
             Debug.Log("Hit Enemy");
 
@@ -50,5 +56,13 @@ public class Projectile : MonoBehaviour
 
 
         }
+
+        if(other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<Player>().ApplyDamage(Damage);
+            Destroy(gameObject);
+        }
+
+        
     }
 }
