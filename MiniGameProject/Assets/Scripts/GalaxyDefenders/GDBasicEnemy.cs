@@ -38,6 +38,16 @@ public class GDBasicEnemy : MonoBehaviour
     float RandomizedShotTime = 0.0f;
     bool pickedShotTime = false;
 
+    [Header("Death Animation")]
+    public GameObject ExplosionObject;
+    bool ReadyToDelete = false;
+    GameObject SpawnedExplosion;
+
+    [Header("Audio")]
+    public AudioClip ShootSound;
+    public AudioClip DeathSound;
+    AudioSource Audio;
+
 
 
     void Start()
@@ -47,6 +57,10 @@ public class GDBasicEnemy : MonoBehaviour
         RightPoint = new Vector3(transform.position.x + MoveDistance, transform.position.y, transform.position.z);
         MidPoint = transform.position;
         DownPoint = new Vector3(transform.position.x, transform.position.y - LowerDistance, transform.position.z);
+
+        Audio = gameObject.AddComponent<AudioSource>();
+        Audio.playOnAwake = false;
+        Audio.loop = false;
 
     }
 
@@ -60,6 +74,10 @@ public class GDBasicEnemy : MonoBehaviour
             if (Ranged)
                 HandleShooting();
 
+            if (ReadyToDelete && SpawnedExplosion.transform.GetChild(0).GetComponent<ParticleSystem>().isPlaying == false)
+            {
+                Destroy(gameObject);
+            }
         }
 
     }
@@ -79,6 +97,9 @@ public class GDBasicEnemy : MonoBehaviour
                 GameObject firedProjectile = Instantiate(ProjecilePrefab, shotPostition, Quaternion.identity); 
                 pickedShotTime = false;
                 shotTimer = 0.0f;
+
+                Audio.clip = ShootSound;
+                Audio.Play();
             }
             else
             {
@@ -153,6 +174,20 @@ public class GDBasicEnemy : MonoBehaviour
             _moveDirection = MoveDirection.Left;
         }
 
+
+    }
+
+    public void StartDeath()
+    {
+        Audio.clip = DeathSound;
+        Audio.Play();
+
+        Vector3 SpawnPos = new Vector3(transform.position.x, transform.position.y - 1, transform.position.z - .5f);
+
+        SpawnedExplosion = Instantiate(ExplosionObject, SpawnPos, Quaternion.identity);
+        transform.GetChild(0).GetComponent<MeshRenderer>().enabled= false;
+        transform.GetComponent<BoxCollider>().enabled= false;
+        ReadyToDelete = true;
 
     }
 

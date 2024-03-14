@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -20,10 +22,22 @@ public class Player : MonoBehaviour
 
     public int Health = 6;
 
+    public AudioClip ShootSound;
+    public AudioClip DeathSound;
+
+    AudioSource Audio;
+
+    public GameObject Explosion;
+    GameObject ExplosionSpawned;
+
+    bool LostGame = false;
     // Start is called before the first frame update
     void Start()
     {
         _shotTimer = ShotCoolDown;
+        Audio = transform.AddComponent<AudioSource>();
+        Audio.playOnAwake = false;
+        Audio.loop = false;
     }
 
     // Update is called once per frame
@@ -32,6 +46,12 @@ public class Player : MonoBehaviour
         if (GameObject.FindAnyObjectByType<GDLevelManager>().GameStarted == true)
         {
             Controls();
+        }
+
+        if(LostGame && ExplosionSpawned.transform.GetChild(0).GetComponent<ParticleSystem>().isPlaying == false) 
+        {
+            SceneManager.LoadScene(0);
+            //EditorSceneManager.LoadScene("GalaxyDefenders");
         }
     }
 
@@ -60,6 +80,8 @@ public class Player : MonoBehaviour
                 SpawnedBullet = Instantiate<GameObject>(Bullet, Muzzle.transform.position, Quaternion.identity);
                 ColorBullet(SpawnedBullet);
                 _shotTimer = 0.0f;
+                Audio.clip = ShootSound;
+                Audio.Play();
 
             }
             else
@@ -86,6 +108,14 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            ApplyDamage(8);
+        }
+    }
+
     public void ApplyDamage(int damage)
     {
         Health -= damage;
@@ -94,6 +124,15 @@ public class Player : MonoBehaviour
         {
             //LOSE GAME (TODO)
             Debug.Log("You fucking suck buddy");
+            Audio.clip = DeathSound;
+            Audio.Play();
+            Vector3 SpawnPos = new Vector3(transform.position.x, transform.position.y - 1, transform.position.z - .5f);
+            transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+            transform.GetComponent<BoxCollider>().enabled = false;
+            ExplosionSpawned = Instantiate(Explosion, SpawnPos, Quaternion.identity);
+            LostGame = true;
+
+
         }
 
     }

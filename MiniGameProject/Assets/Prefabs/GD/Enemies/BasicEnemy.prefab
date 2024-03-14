@@ -76,6 +76,14 @@ MonoBehaviour:
   LowerDistance: 1.5
   Health: 2
   _moveDirection: 0
+  Ranged: 0
+  ProjecilePrefab: {fileID: 0}
+  FireRate: 0
+  FireDeviance: 1
+  FireOffset: 1
+  ExplosionObject: {fileID: 100004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
+  ShootSound: {fileID: 8300000, guid: f65226ac4d2de3340b21b2bb7df487f2, type: 3}
+  DeathSound: {fileID: 8300000, guid: 136967b651cbbe841a4a76ab156d4d8f, type: 3}
 --- !u!54 &8050065291187451443
 Rigidbody:
   m_ObjectHideFlags: 0

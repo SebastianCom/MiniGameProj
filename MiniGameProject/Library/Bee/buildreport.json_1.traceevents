@@ -1,483 +1,512 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1707520681005550, "dur": 1950883, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520681005821, "dur": 15655, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520681021480, "dur": 31407, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520681052929, "dur": 631319, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520681684251, "dur": 1259215, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520682943468, "dur": 12963, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520682956965, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432763190230, "dur": 1342490, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432763190494, "dur": 13166, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432763203665, "dur": 31525, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432763235229, "dur": 575761, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432763810993, "dur": 713031, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432764524027, "dur": 8691, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432764533578, "dur": 26, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1707520681542923, "dur": 127418, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681543799, "dur": 35918, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681656066, "dur": 4045, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681660115, "dur": 10220, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681660768, "dur": 8809, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681674490, "dur": 1144, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1707520681673723, "dur": 1934, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520682957075, "dur": 237, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763663108, "dur": 133562, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763664074, "dur": 38822, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763782086, "dur": 4035, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763786124, "dur": 10537, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763786789, "dur": 9167, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763800919, "dur": 1152, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1710432763800138, "dur": 1957, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432764533753, "dur": 261, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1707520681719854, "dur":1177, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520681721038, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1707520681721086, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1707520681721099, "dur":249, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1707520681721369, "dur":444, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520681721813, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682913284, "dur":710, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682913994, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914003, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914005, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914011, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914012, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914019, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914021, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914026, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914028, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914033, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914035, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914041, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914043, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914048, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914050, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914057, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914090, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682914113, "dur":1268, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1707520681721718, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681721854, "dur":4761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681726616, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1707520681726750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681736441, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1707520681737581, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1707520681737666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681737673, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1707520681738838, "dur":39350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681778192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681782047, "dur":7205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681789294, "dur":38477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681827787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681827796, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681831837, "dur":28478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681860320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681860330, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681861156, "dur":71891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681933050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681933055, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681933890, "dur":63185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520681997079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520681997087, "dur":20234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682017356, "dur":32369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682049728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682049733, "dur":15334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682065103, "dur":26295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682091404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682091414, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682094397, "dur":54210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682148610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682148617, "dur":17134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682165788, "dur":20365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682186155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682186160, "dur":14972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682201165, "dur":46047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682247215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682247223, "dur":30201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682277463, "dur":90030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682367497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682367505, "dur":12954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682380496, "dur":122339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682502838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682502846, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682504276, "dur":148255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682652536, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682652548, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1707520682656352, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1707520682656447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682656453, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1707520682657382, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1707520682657417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682657438, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1707520682658307, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1707520682658341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682658347, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1707520682659298, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1707520682659331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682659336, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660105, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660144, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660826, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682660867, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1707520682662152, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1707520682662186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682662191, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1707520682663974, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1707520682664074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1707520682664080, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1707520682664823, "dur":248533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681721920, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681721921, "dur":4661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681726583, "dur":7248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1707520681733835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681733980, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1707520681735043, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1707520681735137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681735187, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1707520681736388, "dur":8564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1707520681744955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681744961, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1707520681746004, "dur":57498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681803506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681803531, "dur":13509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681817071, "dur":35730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681852805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681852812, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681853599, "dur":35012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681888614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681888622, "dur":4578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681893235, "dur":32849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681926088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681926096, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681926891, "dur":23240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681950134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681950157, "dur":4591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681954781, "dur":17056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681971842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520681971850, "dur":4012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520681975897, "dur":28322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682004222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682004230, "dur":12638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682016902, "dur":32723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682049629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682049637, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682053003, "dur":40073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682093078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682093083, "dur":9386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682102504, "dur":14909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682117418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682117426, "dur":34367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682151835, "dur":34117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682185956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682185964, "dur":11244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682197244, "dur":35125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682232372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682232380, "dur":45403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682277819, "dur":233016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682510839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682510847, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682511732, "dur":101287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682613023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682613033, "dur":9947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682623016, "dur":187487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682810506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1707520682810564, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1707520682811420, "dur":101898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681721891, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681721892, "dur":4666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681726564, "dur":39838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1707520681766407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681767794, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1707520681770588, "dur":30538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681801131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681802224, "dur":14474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681816733, "dur":101780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681918517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681918525, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681922149, "dur":14505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681936658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520681936666, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520681937467, "dur":69482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682006952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682006959, "dur":30685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682037681, "dur":12547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682050232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682050239, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682052723, "dur":40162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682092889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682092897, "dur":19634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682112570, "dur":43462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682156036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682156045, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682159406, "dur":47427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682206837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682206846, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682211725, "dur":84987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682296716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682296724, "dur":12062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682308821, "dur":64443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682373280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682373287, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682374104, "dur":166321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682540428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682540436, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682541925, "dur":87280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682629210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682629219, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682631828, "dur":34368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682666200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1707520682666208, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1707520682667186, "dur":246154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681721832, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681721832, "dur":4782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681726615, "dur":7659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1707520681734277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681734292, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1707520681735201, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1707520681735287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681735674, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1707520681736939, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1707520681737027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681737087, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1707520681738212, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1707520681738327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520681738332, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1707520681739305, "dur":332021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682071329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682071337, "dur":31298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682102676, "dur":15338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682118017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682118025, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682119121, "dur":42825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682161950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682161958, "dur":10836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682172830, "dur":211067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682383901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682383909, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682384756, "dur":65704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682450464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682450470, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682451305, "dur":26575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682477884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682477893, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682478704, "dur":208481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682687189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1707520682687197, "dur":13364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1707520682700596, "dur":212682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681721740, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681721859, "dur":4754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681726614, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1707520681726719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681728206, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1707520681730523, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1707520681730698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681730951, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1707520681731909, "dur":8446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1707520681740358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681740369, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1707520681741394, "dur":62795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1707520681804192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681804197, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1707520681805606, "dur":20008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681825619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681825628, "dur":8989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681834656, "dur":27130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681861789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681861797, "dur":17078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681878913, "dur":54104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681933021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520681933028, "dur":14083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520681947145, "dur":57815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682004964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682004970, "dur":14282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682019294, "dur":31013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682050309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682050315, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682052909, "dur":15046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682067958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682067965, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682069146, "dur":15638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682084789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682084799, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682087053, "dur":80868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682167925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682167935, "dur":22763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682190733, "dur":35428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682226164, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682226176, "dur":57731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682283944, "dur":109878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682393870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682393879, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682394887, "dur":55008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682449899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682449907, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682450981, "dur":116609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682567594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682567602, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682572498, "dur":45094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682617596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682617604, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682620613, "dur":290050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682910667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1707520682910675, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1707520682913241, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1707520682913243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681721796, "dur":67, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681721863, "dur":4753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681726617, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1707520681726755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681737017, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1707520681738833, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1707520681738918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681738923, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1707520681741618, "dur":41127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject.exe" }}
-,{ "pid":12345, "tid":6, "ts":1707520681782749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681782755, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject.exe" }}
-,{ "pid":12345, "tid":6, "ts":1707520681784151, "dur":27176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681811332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681811340, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681812267, "dur":52867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681865154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681865162, "dur":15725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681880924, "dur":12667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681893594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681893600, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681894509, "dur":66002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681960515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520681960523, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520681965118, "dur":39855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682004976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682004981, "dur":19051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682024068, "dur":23542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682047614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682047622, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682052179, "dur":33280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682085463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682085472, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682086794, "dur":31990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682118787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682118800, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682120874, "dur":12342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682133220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682133228, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682134108, "dur":136533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682270645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682270652, "dur":13602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682284289, "dur":220480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682504771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682504778, "dur":11969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682516780, "dur":168636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682685419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1707520682685427, "dur":19368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1707520682704831, "dur":208429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681721824, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681721825, "dur":4735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681726564, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1707520681726726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681736248, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1707520681737389, "dur":6203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1707520681743596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681743606, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1707520681744495, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1707520681744583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681744758, "dur":14406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1707520681759205, "dur":14940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681774149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681775580, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681776384, "dur":28311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681804698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681804703, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681806736, "dur":33045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681839784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681839794, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681842628, "dur":42836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681885468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520681885476, "dur":10081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520681895593, "dur":117754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682013351, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682013386, "dur":9122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682022542, "dur":43672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682066233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682066241, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682067423, "dur":18425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682085851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682085857, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682087168, "dur":31615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682118787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682118794, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682119660, "dur":16106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682135770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682135778, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682136805, "dur":28962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682165784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682165792, "dur":6051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682171883, "dur":53446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682225333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682225342, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682226423, "dur":57803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682284404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682284413, "dur":24778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682309239, "dur":178093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682487336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682487362, "dur":15139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682502535, "dur":206648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682709186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1707520682709196, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1707520682711907, "dur":201379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681721694, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681721822, "dur":4735, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681726564, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1707520681726568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681727663, "dur":275, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1707520681727942, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1707520681727989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681728158, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1707520681730293, "dur":7604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1707520681737899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681737905, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1707520681738859, "dur":112119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520681850982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681851030, "dur":10067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520681861248, "dur":17741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520681878992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520681878999, "dur":16251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520681895284, "dur":112934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682008239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682008247, "dur":8218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682016501, "dur":31423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682047926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682047978, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682051957, "dur":16014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682067973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682067978, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682068938, "dur":22765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682091706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682091712, "dur":22820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682114574, "dur":33625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682148205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682148214, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682149224, "dur":14692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682163920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682163928, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682164843, "dur":34334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682199181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682199188, "dur":9075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682211411, "dur":145321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682356736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682356744, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682364282, "dur":181769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682546055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682546063, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682547085, "dur":87375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682634464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682634472, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1707520682635671, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1707520682635707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682635761, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1707520682636845, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1707520682636879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682636884, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":8, "ts":1707520682639221, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1707520682639266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682639272, "dur":16160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1707520682655472, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1707520682655509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682655519, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1707520682656606, "dur":6440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1707520682663049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1707520682663056, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/GalaxyDefendersV0.1/MiniGameProject_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1707520682664055, "dur":249582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1707520682919452, "dur":1400, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1707520682957382, "dur": 897, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1707520682956946, "dur": 1357, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1710432763849545, "dur":1320, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432763850869, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1710432763850935, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1710432763850950, "dur":234, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1710432763851202, "dur":466, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432763851668, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487805, "dur":106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487911, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487927, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487929, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487935, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487938, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487946, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487951, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487953, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487958, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487960, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487965, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487966, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487971, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487973, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487978, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764487988, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764488007, "dur":1449, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710432763851382, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763851678, "dur":5009, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763856697, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710432763856700, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763856798, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710432763856846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763857793, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1710432763860958, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1710432763861039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763861585, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1710432763864142, "dur":5877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1710432763870021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763870028, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1710432763871258, "dur":10046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763881307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763881314, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763882487, "dur":6045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763888536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763888546, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763890230, "dur":4926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763895160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763895168, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763896029, "dur":4123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763900158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763900166, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763901110, "dur":37559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763938671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763938703, "dur":15765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763954500, "dur":4677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763959180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432763959185, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432763960803, "dur":54480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764015288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432764015296, "dur":10214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764025545, "dur":78395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764103945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432764103952, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764106421, "dur":77807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764184232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432764184240, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764185255, "dur":82755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764268014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432764268021, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764269218, "dur":116514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764385736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710432764385744, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710432764386936, "dur":100871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763851419, "dur":267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763851686, "dur":5003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763856697, "dur":27015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1710432763883715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763883963, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1710432763884770, "dur":5354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763890128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763890135, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763891111, "dur":6053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763897168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763897176, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763898191, "dur":4366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763902559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763902564, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763904052, "dur":4394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763908448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763908453, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763909898, "dur":5711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763915612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763915617, "dur":4923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763920580, "dur":5821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763926407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763926419, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763927411, "dur":5221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763932635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763932654, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763934666, "dur":4806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763939475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763939482, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763944016, "dur":4881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763948899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763948903, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763950353, "dur":4490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763954845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763954850, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763956909, "dur":8462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763965373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432763965429, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432763968505, "dur":118581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764087090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432764087096, "dur":27126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764114253, "dur":28185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764142442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432764142450, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764146166, "dur":220982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764367153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710432764367162, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710432764369947, "dur":117872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763851410, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763851680, "dur":5010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763856697, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1710432763856859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763859947, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1710432763860927, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1710432763861008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763861056, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1710432763864060, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1710432763864669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763866915, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1710432763869692, "dur":27541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject.exe" }}
+,{ "pid":12345, "tid":3, "ts":1710432763897250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763897254, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject.exe" }}
+,{ "pid":12345, "tid":3, "ts":1710432763898389, "dur":4151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763902542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763902562, "dur":7891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763913306, "dur":5817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763919126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763919132, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763922025, "dur":5113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763927141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763927146, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763928846, "dur":8036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763936886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763936893, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763938771, "dur":5446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763944230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763944235, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763948739, "dur":12949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763961690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432763961695, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432763964124, "dur":63639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764027767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764027775, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764028814, "dur":124063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764152881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764152888, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764153921, "dur":30765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764184689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764184696, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764187415, "dur":93396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764280816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764280825, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710432764281973, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1710432764282012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764282049, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1710432764283046, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764283078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764283085, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284069, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284109, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284785, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764284823, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1710432764289422, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764289455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764289462, "dur":19383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764308879, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1710432764308921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764308926, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1710432764314130, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764314164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764314170, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764315209, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1710432764315310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764315315, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1710432764316129, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764316161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764316165, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764319108, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764319144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764319150, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764320348, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764320383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764320388, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764321237, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764321270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764321274, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764322308, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764322341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764322345, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1710432764323121, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764323155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710432764323159, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1710432764324187, "dur":163616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763851439, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763851692, "dur":4999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763856697, "dur":11773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1710432763868472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763868489, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1710432763869348, "dur":2878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1710432763872231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763872237, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1710432763874101, "dur":5731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763879836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763879914, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763880769, "dur":5555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763886327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763886334, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763887361, "dur":5029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763892394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763892402, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763893189, "dur":3980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763897172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763897177, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763898268, "dur":4262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763902533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763902540, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763903882, "dur":3946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763907833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763907843, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763908853, "dur":4641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763913498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763913505, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763914268, "dur":4582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763918855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763918867, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763923062, "dur":8721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763931787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763931794, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763932652, "dur":4349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763937004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763937009, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763938356, "dur":5279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763943637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763943643, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763944716, "dur":3664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763948384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763948392, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763949322, "dur":4656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763953982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763954007, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763955399, "dur":4777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763960197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432763960205, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432763961313, "dur":66626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764027941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432764027947, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764029427, "dur":109817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764139248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432764139255, "dur":48293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764187590, "dur":34424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764222018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432764222025, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764222823, "dur":262394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764485224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710432764485234, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710432764487785, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1710432764487786, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763851463, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763851699, "dur":4997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763856696, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1710432763856848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763858389, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1710432763860893, "dur":6033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710432763866929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763866934, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710432763868062, "dur":18950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432763887015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763887063, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432763890909, "dur":9345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432763900257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432763900263, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432763901883, "dur":101140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432764003027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432764003034, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432764004519, "dur":350781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432764355304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710432764355313, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710432764357506, "dur":130305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763851488, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763851704, "dur":4990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763856696, "dur":7219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1710432763863918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763863931, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1710432763865257, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1710432763865348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763865401, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1710432763866400, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1710432763866495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763866501, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1710432763867571, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1710432763867653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763867659, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1710432763868807, "dur":46411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763915221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763915226, "dur":12111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763927379, "dur":4722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763932103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763932109, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763933356, "dur":5184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763938542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763938548, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763941074, "dur":4686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763945777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763945785, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763946631, "dur":4572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763951207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763951215, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763954929, "dur":4008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763958941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763958949, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763960644, "dur":4474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763965122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432763965131, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432763968121, "dur":154669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764122795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432764122803, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764124531, "dur":129179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764253714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432764253722, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764255119, "dur":170229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764425352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710432764425360, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710432764426279, "dur":61530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763851510, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763851710, "dur":4988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763856699, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1710432763856864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763859071, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1710432763860771, "dur":6083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1710432763866856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763866863, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1710432763867835, "dur":2525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763870362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763870535, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763871449, "dur":5570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763877023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763877251, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763878228, "dur":5664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763885689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763885697, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763887881, "dur":4530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763892413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763892418, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763893229, "dur":3936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763897168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763897176, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763898219, "dur":4532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763902753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763902758, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763904460, "dur":5340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763909818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763909826, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763910584, "dur":3621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763914209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763914215, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763915001, "dur":4937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763919942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763919951, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763922443, "dur":4635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763927082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763927105, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763928826, "dur":8366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763937194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763937199, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763938613, "dur":4830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763943447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763943456, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763944504, "dur":4322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763948828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763948833, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763950355, "dur":4319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763954676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763954682, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763956526, "dur":5006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763961534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432763961557, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432763962751, "dur":67097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764029850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432764029859, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764031165, "dur":55658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764086827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432764086835, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764087938, "dur":91970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764179912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432764179919, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764181449, "dur":94038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764275491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432764275499, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764277497, "dur":54885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764332386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710432764332394, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710432764333662, "dur":154149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763851534, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763851715, "dur":4977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763856697, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710432763856846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763858338, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710432763860879, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710432763861493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763861502, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710432763863002, "dur":6308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1710432763869312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763869320, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1710432763870152, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1710432763870236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763870692, "dur":12672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1710432763883405, "dur":4315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763887724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763887732, "dur":5795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763893568, "dur":7813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763901383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763901390, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763902727, "dur":5414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763908144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763908149, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763909155, "dur":5603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763914761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763914768, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763916524, "dur":5985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763922512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763922521, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763923605, "dur":5875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763929482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763929489, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763930244, "dur":4785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763935033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763935040, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763936036, "dur":5757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763941796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763941817, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763943623, "dur":5189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763948815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763948821, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763954122, "dur":5078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763959202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432763959207, "dur":4196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432763963439, "dur":57482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764020925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764020934, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764022044, "dur":66006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764088052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764088059, "dur":11020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764099114, "dur":30392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764129510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764129518, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764133427, "dur":159937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764293370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764293383, "dur":14585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710432764308003, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1710432764308057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764308063, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1710432764309025, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710432764309061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764309065, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710432764315215, "dur":4521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1710432764319739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764319745, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1710432764320568, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1710432764320600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764320604, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1710432764321389, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1710432764321419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764321423, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1710432764322430, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1710432764322504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764322509, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1710432764323244, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1710432764323275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764323279, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1710432764324164, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1710432764324256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710432764324261, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sebco/Desktop/MiniGameProj/Builds/BuildV0.2/MiniGameProject_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1710432764324933, "dur":162869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710432764491313, "dur":1651, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1710432764534088, "dur": 1100, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710432764533557, "dur": 1663, "ph": "X", "name": "Write chrome-trace events", "args": {} },

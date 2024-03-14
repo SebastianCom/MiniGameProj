@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MiniGameSelector.unity
+    guid: 1dcb70e0755c07543a4edb0cae154a61
+  - enabled: 1
+    path: Assets/Scenes/GalaxyDefenders.unity
+    guid: 71a9fea5883710148baf4e405fe33811
+  - enabled: 1
+    path: Assets/Scenes/Frogger.unity
+    guid: 29a8a8f85bdde6b4f8f30152652ea76c
   m_configObjects: {}

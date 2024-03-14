@@ -14,7 +14,7 @@ public class GDLevelManager : MonoBehaviour
 
     public int CurrentLevel = 0;
 
-    bool CountDown = false;
+    public bool CountDown = false;
     float TimeBeforeStart = 6;
     // Start is called before the first frame update
     void Start()
@@ -56,7 +56,7 @@ public class GDLevelManager : MonoBehaviour
     {
         for(int i = 0; i < level.transform.childCount; i++) 
         {
-            CurrentEnemies.Add(level.transform.GetChild(i).gameObject);
+            CurrentEnemies.Add(level.transform.GetChild(i).GetChild(0).gameObject);
 
         }
     }

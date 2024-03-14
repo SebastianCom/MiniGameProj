@@ -49,7 +49,8 @@ public class Projectile : MonoBehaviour
             if(EnemyHit.Health <= 0)
             {
                 FindAnyObjectByType<GDScore>().score += 10;
-                Destroy(other.gameObject);
+                other.gameObject.GetComponent<GDBasicEnemy>().StartDeath();
+                //Destroy(other.gameObject);
             }
             
             Destroy(gameObject);
@@ -57,7 +58,7 @@ public class Projectile : MonoBehaviour
 
         }
 
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && FromEnemy == true)
         {
             other.gameObject.GetComponent<Player>().ApplyDamage(Damage);
             Destroy(gameObject);
